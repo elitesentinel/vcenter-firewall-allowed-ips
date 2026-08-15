@@ -1,3 +1,5 @@
+This is not the final script but it is good enough, it can be developed more.
+
 To test use:
 .\Apply-EsxiFirewallIPs.ps1 `
     -Mode Sync `
