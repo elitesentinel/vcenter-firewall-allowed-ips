@@ -29,7 +29,7 @@ pwsh ./Apply-EsxiFirewallIPs.ps1 \
     -Cluster "Cluster-v4" \
     -ReferenceHost 10.100.1.20
 
-NeverSyncRules: Commented out to future use, skips the rules specified.
+NeverSyncRules: Commented out for future use, skips the rules specified.
 <# $NeverSyncRules = @(
     "etcdClientComm",
     "etcdPeerComm"
